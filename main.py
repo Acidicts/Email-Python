@@ -2,8 +2,8 @@ import smtplib
 import ssl
 from email.message import EmailMessage
 
-subject = "Test Email"
-body = "This is a test email"
+subject = input("Enter the subject of the email: ")
+body = input("Enter the body of the email: ")
 sender_email = input("Enter your email: ")
 receiver_email = input("Enter the receiver's email: ")
 
